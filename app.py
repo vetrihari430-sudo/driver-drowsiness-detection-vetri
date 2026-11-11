@@ -41,4 +41,4 @@ if uploaded is not None:
 
     st.write("Confidence for all classes:")
     for i, label in enumerate(labels):
-        st.write(f"{label}: {float(pred[i][0]) * 100:.1f}%")
+     st.write(f"{label}: {float(pred[0][i]) * 100:.1f}%")   
